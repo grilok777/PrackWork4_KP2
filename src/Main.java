@@ -106,7 +106,7 @@ public class Main {
 
     public static void print_detail_result(int [] arr, Set<Integer> res){
         Integer[] resultArray = res.toArray(new Integer[0]);
-        System.out.print("Візуально полегшений результат: ");
+        System.out.print("Візуально полегшенний результат: ");
         for(int i =0; i<res.size(); i++){
             System.out.println("num["+arr[2*i]+"] * num["+arr[2*i+1]+"] = fR["+resultArray[i]+"]");
         }
